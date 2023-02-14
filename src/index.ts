@@ -12,4 +12,4 @@ if (!existsSync(path)) {
   process.exit(1);
 }
 
-getFileTree(path).then((res) => console.log(res));
+getFileTree(path).then(console.log);
