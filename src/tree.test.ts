@@ -9,6 +9,7 @@ describe("getFileTree()", () => {
         "foo/f2.txt",
         "foo/bar/bar1.txt",
         "foo/bar/bar2.txt",
+        "foo/bar/baz/baz1.txt",
       ],
       dirs: ["foo", "foo/bar", "foo/bar/baz"],
     });
